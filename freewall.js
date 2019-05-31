@@ -88,7 +88,8 @@
                 height = $item.height();
             }
 
-            var col = !width ? 0 : Math[makeRound]((width + gutterX) / cellW);
+            //var col = !width ? 0 : Math[makeRound]((width + gutterX) / cellW);
+            var col = !width ? 0 : 1
             var row = !height ? 0 : Math[makeRound]((height + gutterY) / cellH);
 
             // estimate size;
